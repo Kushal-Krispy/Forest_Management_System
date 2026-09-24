@@ -1,0 +1,62 @@
+/**
+ * THEME VARIABLES - Dark/Light mode controlled by data-theme on <html>
+ * theme.js toggles between 'light' and 'dark'
+ */
+:root,
+[data-theme="light"] {
+  --bg-primary: #f0f4f8;
+  --bg-secondary: #ffffff;
+  --bg-sidebar: #1a3c2e;
+  --bg-sidebar-hover: #245240;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-inverse: #f8fafc;
+  --accent: #2d6a4f;
+  --accent-light: #40916c;
+  --accent-dark: #1b4332;
+  --danger: #dc2626;
+  --warning: #d97706;
+  --success: #16a34a;
+  --border: #e2e8f0;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.06);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --font: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-sidebar: #0c1f17;
+  --bg-sidebar-hover: #1a3c2e;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-inverse: #f8fafc;
+  --accent: #52b788;
+  --accent-light: #74c69d;
+  --accent-dark: #2d6a4f;
+  --border: #334155;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4);
+  --badge-admin-bg: #1e3a5f;
+  --badge-admin-text: #93c5fd;
+  --badge-officer-bg: #78350f;
+  --badge-officer-text: #fdba74;
+  --badge-public-bg: #312e81;
+  --badge-public-text: #c7d2fe;
+  --badge-pending-bg: #78350f;
+  --badge-pending-text: #fdba74;
+  --badge-approved-bg: #14532d;
+  --badge-approved-text: #86efac;
+  --badge-endangered-bg: #7f1d1d;
+  --badge-endangered-text: #fca5a5;
+  --badge-vulnerable-bg: #9a3412;
+  --badge-vulnerable-text: #fdba74;
+  --badge-lc-bg: #14532d;
+  --badge-lc-text: #86efac;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --success: #22c55e;
+}
